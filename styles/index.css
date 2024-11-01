@@ -13,7 +13,7 @@ body {
 .home-page {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  height: 100vh; 
 }
 
 .navbar {
@@ -31,7 +31,7 @@ body {
 }
 
 .navbar:hover {
-    width: 150px;
+  width: 150px;
 }
 
 .main-page {
@@ -42,65 +42,173 @@ body {
 }
 
 .main-left {
-    flex: 1;
+  flex: 1;
+  padding: 25px;
+  overflow: auto;
+}
+
+.main-left > .main-heading {
+  background-color: #ffffff;
+  padding: 22px 20px;
+  border-radius: 10px;
+}
+
+.main-left > .main-heading > span {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.main-projects-section {
+  margin: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px 25px;
+}
+
+.project-card > .card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.project-card > .card-title > i {
+  font-size: 28px;
+  color: #ffffff;
+  background-color: #ff5e00;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.project-card > .card-title > .title-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.project-card > .card-title > .title-sec > .project-sec-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.project-card > .card-title > .title-sec > .project-sec-date {
+  font-size: 12px;
+  color: gray;
+}
+
+.card-task {
+  margin: 35px 5px;
+}
+
+.card-task > ul > li {
+  /* list-style: none; */
+  color: gray;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.card-progress-bar {
+  width: 100%;
+  height: 5px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  width: 33%;   
+  height: 100%;
+  background-color: #ff5e00;
+  transition: width 0.3s ease;
+  border-radius: 10px;
+}
+
+.card-progress-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: gray;
+  margin: 15px 0 5px 0;
+  font-size: 12px;
 }
 
 .main-right {
-    width: 350px;
-    height: 100vh;
-    padding: 15px 0;
+  width: 350px;
+  height: 100vh;
+  padding: 15px 0;
 }
 
 .progress-content-wrapper {
-    height: 100%;
-    background-color: #ffffff;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 35px 15px;
+  /* position: fixed;
+  right: 0; */
+  height: 100%;
+  background-color: #ffffff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 15px;
 }
 
 .progress-content-wrapper > span {
-    font-size: 28px;
-    font-weight: bold;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .completed-list > ul > li {
-    list-style: none;
-    cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    gap: 8px;
-    padding: 2px 5px;
-    margin: 10px 0;
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  gap: 8px;
+  padding: 2px 5px;
+  margin: 10px 0;
 }
 
 .completed-list > ul > li > i {
-    font-size: 28px;
-    color: #ffffff;
-    background-color: #ff5e00;
-    padding: 5px;
-    border-radius: 6px;
+  font-size: 28px;
+  color: #ffffff;
+  background-color: #ff5e00;
+  padding: 5px;
+  border-radius: 6px;
 }
 
 .complete-progress-detail {
-    display: flex;
-    flex-direction: column;
-    padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px;
 }
 
 .complete-progress-detail > .title {
-    font-size: 17px;
-    font-weight: semi-bold;
+  font-size: 17px;
+
 }
 
 .complete-progress-detail > .task-no {
-    font-size: 13px;
-    color: gray;
+  font-size: 13px;
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  .main-projects-section {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 480px) {
+  .main-projects-section {
+    grid-template-columns: 1fr; 
+  }
 }

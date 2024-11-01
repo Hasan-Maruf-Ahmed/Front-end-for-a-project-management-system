@@ -17,7 +17,241 @@
         </div>
         <div class="main-page">
             <div class="main-left">
-                hello
+                <div class="main-heading">
+                    <span>My Projects</span>
+                </div>
+                <div class="main-projects-section">
+                    <div class="project-card">
+                        <div class="card-title">
+                        <i class="ph ph-book"></i>
+                        <div class="title-sec">
+                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-date">Today</span>
+                        </div>
+                        </div>
+                        <div class="card-task">
+                            <ul>
+                                <li>Research paint color for living room</li>
+                                <li>Purchase new furniture</li>
+                                <li>Install new lighting</li>
+                            </ul>
+                        </div>
+                        <div class="card-progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="card-progress-detail">
+                            <span>On progress</span>
+                            <span>33%</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">
+                        <i class="ph ph-book"></i>
+                        <div class="title-sec">
+                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-date">Today</span>
+                        </div>
+                        </div>
+                        <div class="card-task">
+                            <ul>
+                                <li>Research paint color for living room</li>
+                                <li>Purchase new furniture</li>
+                                <li>Install new lighting</li>
+                            </ul>
+                        </div>
+                        <div class="card-progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="card-progress-detail">
+                            <span>On progress</span>
+                            <span>33%</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">
+                        <i class="ph ph-book"></i>
+                        <div class="title-sec">
+                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-date">Today</span>
+                        </div>
+                        </div>
+                        <div class="card-task">
+                            <ul>
+                                <li>Research paint color for living room</li>
+                                <li>Purchase new furniture</li>
+                                <li>Install new lighting</li>
+                            </ul>
+                        </div>
+                        <div class="card-progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="card-progress-detail">
+                            <span>On progress</span>
+                            <span>33%</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">
+                        <i class="ph ph-book"></i>
+                        <div class="title-sec">
+                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-date">Today</span>
+                        </div>
+                        </div>
+                        <div class="card-task">
+                            <ul>
+                                <li>Research paint color for living room</li>
+                                <li>Purchase new furniture</li>
+                                <li>Install new lighting</li>
+                            </ul>
+                        </div>
+                        <div class="card-progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="card-progress-detail">
+                            <span>On progress</span>
+                            <span>33%</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">
+                        <i class="ph ph-book"></i>
+                        <div class="title-sec">
+                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-date">Today</span>
+                        </div>
+                        </div>
+                        <div class="card-task">
+                            <ul>
+                                <li>Research paint color for living room</li>
+                                <li>Purchase new furniture</li>
+                                <li>Install new lighting</li>
+                            </ul>
+                        </div>
+                        <div class="card-progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="card-progress-detail">
+                            <span>On progress</span>
+                            <span>33%</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">
+                        <i class="ph ph-book"></i>
+                        <div class="title-sec">
+                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-date">Today</span>
+                        </div>
+                        </div>
+                        <div class="card-task">
+                            <ul>
+                                <li>Research paint color for living room</li>
+                                <li>Purchase new furniture</li>
+                                <li>Install new lighting</li>
+                            </ul>
+                        </div>
+                        <div class="card-progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="card-progress-detail">
+                            <span>On progress</span>
+                            <span>33%</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">
+                        <i class="ph ph-book"></i>
+                        <div class="title-sec">
+                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-date">Today</span>
+                        </div>
+                        </div>
+                        <div class="card-task">
+                            <ul>
+                                <li>Research paint color for living room</li>
+                                <li>Purchase new furniture</li>
+                                <li>Install new lighting</li>
+                            </ul>
+                        </div>
+                        <div class="card-progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="card-progress-detail">
+                            <span>On progress</span>
+                            <span>33%</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">
+                        <i class="ph ph-book"></i>
+                        <div class="title-sec">
+                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-date">Today</span>
+                        </div>
+                        </div>
+                        <div class="card-task">
+                            <ul>
+                                <li>Research paint color for living room</li>
+                                <li>Purchase new furniture</li>
+                                <li>Install new lighting</li>
+                            </ul>
+                        </div>
+                        <div class="card-progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="card-progress-detail">
+                            <span>On progress</span>
+                            <span>33%</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">
+                        <i class="ph ph-book"></i>
+                        <div class="title-sec">
+                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-date">Today</span>
+                        </div>
+                        </div>
+                        <div class="card-task">
+                            <ul>
+                                <li>Research paint color for living room</li>
+                                <li>Purchase new furniture</li>
+                                <li>Install new lighting</li>
+                            </ul>
+                        </div>
+                        <div class="card-progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="card-progress-detail">
+                            <span>On progress</span>
+                            <span>33%</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">
+                        <i class="ph ph-book"></i>
+                        <div class="title-sec">
+                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-date">Today</span>
+                        </div>
+                        </div>
+                        <div class="card-task">
+                            <ul>
+                                <li>Research paint color for living room</li>
+                                <li>Purchase new furniture</li>
+                                <li>Install new lighting</li>
+                            </ul>
+                        </div>
+                        <div class="card-progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="card-progress-detail">
+                            <span>On progress</span>
+                            <span>33%</span>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="main-right">
                 <div class="progress-content-wrapper">
