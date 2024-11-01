@@ -6,6 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div>
+        <div>
+        <?php
+            include './components/nav.php'
+        ?>
+        </div>
+        <div><p>main page</p></div>
+    </div>
 </body>
 </html>
