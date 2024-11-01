@@ -36,4 +36,71 @@ body {
 
 .main-page {
   flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-left {
+    flex: 1;
+}
+
+.main-right {
+    width: 350px;
+    height: 100vh;
+    padding: 15px 0;
+}
+
+.progress-content-wrapper {
+    height: 100%;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 15px;
+}
+
+.progress-content-wrapper > span {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.completed-list > ul > li {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    gap: 8px;
+    padding: 2px 5px;
+    margin: 10px 0;
+}
+
+.completed-list > ul > li > i {
+    font-size: 28px;
+    color: #ffffff;
+    background-color: #ff5e00;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.complete-progress-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+}
+
+.complete-progress-detail > .title {
+    font-size: 17px;
+    font-weight: semi-bold;
+}
+
+.complete-progress-detail > .task-no {
+    font-size: 13px;
+    color: gray;
 }
