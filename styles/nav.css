@@ -1,0 +1,29 @@
+.main-icon {
+    margin: 15px;
+}
+
+.main-icon > i {
+    font-size: 60px;
+    color: #ff5e00;
+}
+
+.nav-elements > li {
+    list-style: none;
+    margin-top: 40px;
+    color: #ff5e00;
+}
+
+.nav-elements > li > i {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.user-icon {
+    margin-bottom: 30px;
+}
+
+.user-icon > i {
+    font-size: 38px;
+    color: gray;
+    cursor: pointer;
+}

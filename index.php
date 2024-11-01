@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="stylesheet" href="./styles/index.css"/>
+    <link rel="stylesheet" href="./styles/nav.css"/>
     <title>Project Management System</title>
 </head>
 <body>
