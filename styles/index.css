@@ -4,6 +4,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   /* border: 1px solid red; */
+
+}
+
+:root {
+  --primary-color: #179BAE;
 }
 
 body {
@@ -82,7 +87,7 @@ body {
 .project-card > .card-title > i {
   font-size: 28px;
   color: #ffffff;
-  background-color: #ff5e00;
+  background-color: var(--primary-color);
   padding: 10px;
   border-radius: 6px;
 }
@@ -125,7 +130,7 @@ body {
 .progress {
   width: 33%;   
   height: 100%;
-  background-color: #ff5e00;
+  background-color: var(--primary-color);
   transition: width 0.3s ease;
   border-radius: 10px;
 }
@@ -180,7 +185,7 @@ body {
 .completed-list > ul > li > i {
   font-size: 28px;
   color: #ffffff;
-  background-color: #ff5e00;
+  background-color: var(--primary-color);
   padding: 5px;
   border-radius: 6px;
 }
