@@ -1,0 +1,24 @@
+.home-page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; 
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+
+  .main-page {
+    flex:1;
+  }
+  
