@@ -23,8 +23,19 @@
     margin-bottom: 30px;
 }
 
-.user-icon > i {
+.user-icon > a {
+    text-decoration: none;
+}
+
+.user-icon > a > i {
+    display: inline-block;
     font-size: 38px;
     color: gray;
     cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.user-icon > a > i:hover {
+    transform: scale(1.2);
+    color: var(--accent-color);
 }
