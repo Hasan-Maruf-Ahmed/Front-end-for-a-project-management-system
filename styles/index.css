@@ -61,6 +61,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
 }
 
 .project-card > .card-title > i {
