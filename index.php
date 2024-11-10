@@ -39,7 +39,7 @@
                             </ul>
                         </div>
                         <div class="card-progress-bar">
-                            <div class="progress"></div>
+                            <div class="progress-bar"></div>
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
@@ -62,7 +62,7 @@
                             </ul>
                         </div>
                         <div class="card-progress-bar">
-                            <div class="progress"></div>
+                            <div class="progress-bar"></div>
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
@@ -85,7 +85,7 @@
                             </ul>
                         </div>
                         <div class="card-progress-bar">
-                            <div class="progress"></div>
+                            <div class="progress-bar"></div>
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
@@ -108,7 +108,7 @@
                             </ul>
                         </div>
                         <div class="card-progress-bar">
-                            <div class="progress"></div>
+                            <div class="progress-bar"></div>
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
@@ -131,7 +131,7 @@
                             </ul>
                         </div>
                         <div class="card-progress-bar">
-                            <div class="progress"></div>
+                            <div class="progress-bar"></div>
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
@@ -154,7 +154,7 @@
                             </ul>
                         </div>
                         <div class="card-progress-bar">
-                            <div class="progress"></div>
+                            <div class="progress-bar"></div>
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
@@ -177,7 +177,7 @@
                             </ul>
                         </div>
                         <div class="card-progress-bar">
-                            <div class="progress"></div>
+                            <div class="progress-bar"></div>
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
@@ -200,7 +200,7 @@
                             </ul>
                         </div>
                         <div class="card-progress-bar">
-                            <div class="progress"></div>
+                            <div class="progress-bar"></div>
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
@@ -223,7 +223,7 @@
                             </ul>
                         </div>
                         <div class="card-progress-bar">
-                            <div class="progress"></div>
+                            <div class="progress-bar"></div>
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
@@ -246,7 +246,7 @@
                             </ul>
                         </div>
                         <div class="card-progress-bar">
-                            <div class="progress"></div>
+                            <div class="progress-bar"></div>
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
@@ -258,8 +258,16 @@
             <div class="main-right">
                 <div class="progress-content-wrapper">
                     <span>Projects Complete</span>
-                    <div class="progress-section">
-                        progress
+                    <div class="circular-progress-section">
+                        <div class="circular-progress">
+                            <div class="outer-circle">
+                                <div class="inner-circle">
+                                    <div id="number">
+                                        50%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="completed-list">
                         <ul>
