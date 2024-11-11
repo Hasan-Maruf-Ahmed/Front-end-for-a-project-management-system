@@ -267,6 +267,9 @@
                                     </div>
                                 </div>
                             </div>
+                            <svg viewbox="0 0 200 200">
+                                <circle cx="100" cy="100" r="90"/>
+                            </svg>
                         </div>
                     </div>
                     <div class="completed-list">

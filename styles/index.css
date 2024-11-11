@@ -192,6 +192,21 @@ body {
   color: #777777;
 }
 
+.circular-progress > svg {
+  position: absolute;
+  top: 0;
+  transform: rotate(-90deg);
+}
+
+.circular-progress > svg > circle {
+  fill: none;
+  stroke: var(--accent-color);
+  stroke-width: 20px;
+  stroke-linecap: round;
+  stroke-dasharray: 282;
+  
+}
+
 .completed-list > ul > li {
   list-style: none;
   cursor: pointer;
