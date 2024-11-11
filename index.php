@@ -27,15 +27,15 @@
                         <div class="card-title">
                         <i class="ph ph-book"></i>
                         <div class="title-sec">
-                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-title">Personal Portfolio Project</span>
                             <span class="project-sec-date">Today</span>
                         </div>
                         </div>
                         <div class="card-task">
                             <ul>
-                                <li>Research paint color for living room</li>
-                                <li>Purchase new furniture</li>
-                                <li>Install new lighting</li>
+                                <li>Research different designs for inspiration.</li>
+                                <li>Implement a basic structure</li>
+                                <li>Add css and js for functionality</li>
                             </ul>
                         </div>
                         <div class="card-progress-bar">
@@ -43,22 +43,22 @@
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
-                            <span>33%</span>
+                            <span>45%</span>
                         </div>
                     </div>
                     <div class="project-card">
                         <div class="card-title">
                         <i class="ph ph-book"></i>
                         <div class="title-sec">
-                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-title">Personal Portfolio Project</span>
                             <span class="project-sec-date">Today</span>
                         </div>
                         </div>
                         <div class="card-task">
                             <ul>
-                                <li>Research paint color for living room</li>
-                                <li>Purchase new furniture</li>
-                                <li>Install new lighting</li>
+                                <li>Research different designs for inspiration.</li>
+                                <li>Implement a basic structure</li>
+                                <li>Add css and js for functionality</li>
                             </ul>
                         </div>
                         <div class="card-progress-bar">
@@ -66,22 +66,22 @@
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
-                            <span>33%</span>
+                            <span>45%</span>
                         </div>
                     </div>
                     <div class="project-card">
                         <div class="card-title">
                         <i class="ph ph-book"></i>
                         <div class="title-sec">
-                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-title">Personal Portfolio Project</span>
                             <span class="project-sec-date">Today</span>
                         </div>
                         </div>
                         <div class="card-task">
                             <ul>
-                                <li>Research paint color for living room</li>
-                                <li>Purchase new furniture</li>
-                                <li>Install new lighting</li>
+                                <li>Research different designs for inspiration.</li>
+                                <li>Implement a basic structure</li>
+                                <li>Add css and js for functionality</li>
                             </ul>
                         </div>
                         <div class="card-progress-bar">
@@ -89,22 +89,22 @@
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
-                            <span>33%</span>
+                            <span>45%</span>
                         </div>
                     </div>
                     <div class="project-card">
                         <div class="card-title">
                         <i class="ph ph-book"></i>
                         <div class="title-sec">
-                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-title">Personal Portfolio Project</span>
                             <span class="project-sec-date">Today</span>
                         </div>
                         </div>
                         <div class="card-task">
                             <ul>
-                                <li>Research paint color for living room</li>
-                                <li>Purchase new furniture</li>
-                                <li>Install new lighting</li>
+                                <li>Research different designs for inspiration.</li>
+                                <li>Implement a basic structure</li>
+                                <li>Add css and js for functionality</li>
                             </ul>
                         </div>
                         <div class="card-progress-bar">
@@ -112,22 +112,22 @@
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
-                            <span>33%</span>
+                            <span>45%</span>
                         </div>
                     </div>
                     <div class="project-card">
                         <div class="card-title">
                         <i class="ph ph-book"></i>
                         <div class="title-sec">
-                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-title">Personal Portfolio Project</span>
                             <span class="project-sec-date">Today</span>
                         </div>
                         </div>
                         <div class="card-task">
                             <ul>
-                                <li>Research paint color for living room</li>
-                                <li>Purchase new furniture</li>
-                                <li>Install new lighting</li>
+                                <li>Research different designs for inspiration.</li>
+                                <li>Implement a basic structure</li>
+                                <li>Add css and js for functionality</li>
                             </ul>
                         </div>
                         <div class="card-progress-bar">
@@ -135,22 +135,22 @@
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
-                            <span>33%</span>
+                            <span>45%</span>
                         </div>
                     </div>
                     <div class="project-card">
                         <div class="card-title">
                         <i class="ph ph-book"></i>
                         <div class="title-sec">
-                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-title">Personal Portfolio Project</span>
                             <span class="project-sec-date">Today</span>
                         </div>
                         </div>
                         <div class="card-task">
                             <ul>
-                                <li>Research paint color for living room</li>
-                                <li>Purchase new furniture</li>
-                                <li>Install new lighting</li>
+                                <li>Research different designs for inspiration.</li>
+                                <li>Implement a basic structure</li>
+                                <li>Add css and js for functionality</li>
                             </ul>
                         </div>
                         <div class="card-progress-bar">
@@ -158,22 +158,22 @@
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
-                            <span>33%</span>
+                            <span>45%</span>
                         </div>
                     </div>
                     <div class="project-card">
                         <div class="card-title">
                         <i class="ph ph-book"></i>
                         <div class="title-sec">
-                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-title">Personal Portfolio Project</span>
                             <span class="project-sec-date">Today</span>
                         </div>
                         </div>
                         <div class="card-task">
                             <ul>
-                                <li>Research paint color for living room</li>
-                                <li>Purchase new furniture</li>
-                                <li>Install new lighting</li>
+                                <li>Research different designs for inspiration.</li>
+                                <li>Implement a basic structure</li>
+                                <li>Add css and js for functionality</li>
                             </ul>
                         </div>
                         <div class="card-progress-bar">
@@ -181,22 +181,22 @@
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
-                            <span>33%</span>
+                            <span>45%</span>
                         </div>
                     </div>
                     <div class="project-card">
                         <div class="card-title">
                         <i class="ph ph-book"></i>
                         <div class="title-sec">
-                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-title">Personal Portfolio Project</span>
                             <span class="project-sec-date">Today</span>
                         </div>
                         </div>
                         <div class="card-task">
                             <ul>
-                                <li>Research paint color for living room</li>
-                                <li>Purchase new furniture</li>
-                                <li>Install new lighting</li>
+                                <li>Research different designs for inspiration.</li>
+                                <li>Implement a basic structure</li>
+                                <li>Add css and js for functionality</li>
                             </ul>
                         </div>
                         <div class="card-progress-bar">
@@ -204,22 +204,22 @@
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
-                            <span>33%</span>
+                            <span>45%</span>
                         </div>
                     </div>
                     <div class="project-card">
                         <div class="card-title">
                         <i class="ph ph-book"></i>
                         <div class="title-sec">
-                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-title">Personal Portfolio Project</span>
                             <span class="project-sec-date">Today</span>
                         </div>
                         </div>
                         <div class="card-task">
                             <ul>
-                                <li>Research paint color for living room</li>
-                                <li>Purchase new furniture</li>
-                                <li>Install new lighting</li>
+                                <li>Research different designs for inspiration.</li>
+                                <li>Implement a basic structure</li>
+                                <li>Add css and js for functionality</li>
                             </ul>
                         </div>
                         <div class="card-progress-bar">
@@ -227,22 +227,22 @@
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
-                            <span>33%</span>
+                            <span>45%</span>
                         </div>
                     </div>
                     <div class="project-card">
                         <div class="card-title">
                         <i class="ph ph-book"></i>
                         <div class="title-sec">
-                            <span class="project-sec-title">Home Renovation Project</span>
+                            <span class="project-sec-title">Personal Portfolio Project</span>
                             <span class="project-sec-date">Today</span>
                         </div>
                         </div>
                         <div class="card-task">
                             <ul>
-                                <li>Research paint color for living room</li>
-                                <li>Purchase new furniture</li>
-                                <li>Install new lighting</li>
+                                <li>Research different designs for inspiration.</li>
+                                <li>Implement a basic structure</li>
+                                <li>Add css and js for functionality</li>
                             </ul>
                         </div>
                         <div class="card-progress-bar">
@@ -250,7 +250,99 @@
                         </div>
                         <div class="card-progress-detail">
                             <span>On progress</span>
-                            <span>33%</span>
+                            <span>45%</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">
+                        <i class="ph ph-book"></i>
+                        <div class="title-sec">
+                            <span class="project-sec-title">Personal Portfolio Project</span>
+                            <span class="project-sec-date">Today</span>
+                        </div>
+                        </div>
+                        <div class="card-task">
+                            <ul>
+                                <li>Research different designs for inspiration.</li>
+                                <li>Implement a basic structure</li>
+                                <li>Add css and js for functionality</li>
+                            </ul>
+                        </div>
+                        <div class="card-progress-bar">
+                            <div class="progress-bar"></div>
+                        </div>
+                        <div class="card-progress-detail">
+                            <span>On progress</span>
+                            <span>45%</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">
+                        <i class="ph ph-book"></i>
+                        <div class="title-sec">
+                            <span class="project-sec-title">Personal Portfolio Project</span>
+                            <span class="project-sec-date">Today</span>
+                        </div>
+                        </div>
+                        <div class="card-task">
+                            <ul>
+                                <li>Research different designs for inspiration.</li>
+                                <li>Implement a basic structure</li>
+                                <li>Add css and js for functionality</li>
+                            </ul>
+                        </div>
+                        <div class="card-progress-bar">
+                            <div class="progress-bar"></div>
+                        </div>
+                        <div class="card-progress-detail">
+                            <span>On progress</span>
+                            <span>45%</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">
+                        <i class="ph ph-book"></i>
+                        <div class="title-sec">
+                            <span class="project-sec-title">Personal Portfolio Project</span>
+                            <span class="project-sec-date">Today</span>
+                        </div>
+                        </div>
+                        <div class="card-task">
+                            <ul>
+                                <li>Research different designs for inspiration.</li>
+                                <li>Implement a basic structure</li>
+                                <li>Add css and js for functionality</li>
+                            </ul>
+                        </div>
+                        <div class="card-progress-bar">
+                            <div class="progress-bar"></div>
+                        </div>
+                        <div class="card-progress-detail">
+                            <span>On progress</span>
+                            <span>45%</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">
+                        <i class="ph ph-book"></i>
+                        <div class="title-sec">
+                            <span class="project-sec-title">Personal Portfolio Project</span>
+                            <span class="project-sec-date">Today</span>
+                        </div>
+                        </div>
+                        <div class="card-task">
+                            <ul>
+                                <li>Research different designs for inspiration.</li>
+                                <li>Implement a basic structure</li>
+                                <li>Add css and js for functionality</li>
+                            </ul>
+                        </div>
+                        <div class="card-progress-bar">
+                            <div class="progress-bar"></div>
+                        </div>
+                        <div class="card-progress-detail">
+                            <span>On progress</span>
+                            <span>45%</span>
                         </div>
                     </div>
                 </div>
@@ -277,29 +369,29 @@
                             <li>
                                 <i class="ph ph-rows"></i>
                                 <div class="complete-progress-detail">
-                                    <span class="title">Marketing Campaign</span>
-                                    <span class="task-no">2 tasks</span>
+                                    <span class="title">E-commerce Project</span>
+                                    <span class="task-no">12 tasks</span>
                                 </div>
                             </li>
                             <li>
                                 <i class="ph ph-rows"></i>
                                 <div class="complete-progress-detail">
-                                    <span class="title">Marketing Campaign</span>
-                                    <span class="task-no">2 tasks</span>
+                                    <span class="title">E-commerce Project</span>
+                                    <span class="task-no">12 tasks</span>
                                 </div>
                             </li>
                             <li>
                                 <i class="ph ph-rows"></i>
                                 <div class="complete-progress-detail">
-                                    <span class="title">Marketing Campaign</span>
-                                    <span class="task-no">2 tasks</span>
+                                    <span class="title">E-commerce Project</span>
+                                    <span class="task-no">12 tasks</span>
                                 </div>
                             </li>
                             <li>
                                 <i class="ph ph-rows"></i>
                                 <div class="complete-progress-detail">
-                                    <span class="title">Marketing Campaign</span>
-                                    <span class="task-no">2 tasks</span>
+                                    <span class="title">E-commerce Project</span>
+                                    <span class="task-no">12 tasks</span>
                                 </div>
                             </li>
                         </ul>

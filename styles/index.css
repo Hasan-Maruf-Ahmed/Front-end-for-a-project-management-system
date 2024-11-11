@@ -108,7 +108,7 @@ body {
 }
 
 .progress-bar {
-  width: 33%;   
+  width: 45%;   
   height: 100%;
   background-color: var(--accent-color);
   transition: width 0.3s ease;
@@ -195,6 +195,7 @@ body {
 .circular-progress > svg {
   position: absolute;
   top: 0;
+  left: 0;
   transform: rotate(-90deg);
 }
 
@@ -203,8 +204,15 @@ body {
   stroke: var(--accent-color);
   stroke-width: 20px;
   stroke-linecap: round;
-  stroke-dasharray: 282;
-  
+  stroke-dasharray: 565.2;
+  stroke-dashoffset: 565.2;
+  animation: anim 1.5s linear forwards;
+}
+
+@keyframes anim {
+  100% {
+    stroke-dashoffset: 282.6;
+  }
 }
 
 .completed-list > ul > li {
