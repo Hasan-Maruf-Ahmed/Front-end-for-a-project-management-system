@@ -12,7 +12,7 @@ body {
 }
 
 .navbar:hover {
-  width: 150px;
+  width: 120px;
 }
 
 .navbar:hover .main-icon > i {
@@ -35,10 +35,40 @@ body {
   background-color: var(--primary-color);
   padding: 22px 20px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--accent-color);
 }
 
 .main-left > .main-heading > span {
   font-size: 28px;
+  font-weight: bold;
+}
+
+.main-left > .main-heading > .new-btn {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  background-color: var(--accent-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.main-left > .main-heading > .new-btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main-left > .main-heading > .new-btn > i{
   font-weight: bold;
 }
 
@@ -53,6 +83,7 @@ body {
   background-color: var(--primary-color);
   border-radius: 10px;
   padding: 30px 25px;
+  border: 1px solid var(--accent-color);
 }
 
 .project-card > .card-title {
@@ -85,7 +116,8 @@ body {
 
 .project-card > .card-title > .title-sec > .project-sec-date {
   font-size: 12px;
-  color: gray;
+  color: var(--accent-color);
+  opacity: 70%;
 }
 
 .card-task {
@@ -94,7 +126,8 @@ body {
 
 .card-task > ul > li {
   /* list-style: none; */
-  color: gray;
+  color: var(--accent-color);
+  opacity: 70%;
   font-size: 14px;
   margin: 10px;
 }
@@ -119,7 +152,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: gray;
+  color: var(--accent-color);
+  opacity: 70%;
   margin: 15px 0 5px 0;
   font-size: 12px;
 }
@@ -142,6 +176,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 35px 15px;
+  border: 1px solid var(--accent-color);
 }
 
 .progress-content-wrapper > span {
@@ -188,8 +223,9 @@ body {
 
 #number {
   font-weight: bold;
-  font-size: 24px;
-  color: #777777;
+  font-size: 22px;
+  color: var(--accent-color);
+  opacity: 70%;
 }
 
 .circular-progress > svg {
@@ -215,12 +251,16 @@ body {
   }
 }
 
+.completed-list {
+  width: 85%;
+}
+
 .completed-list > ul > li {
   list-style: none;
   cursor: pointer;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   gap: 8px;
@@ -249,7 +289,8 @@ body {
 
 .complete-progress-detail > .task-no {
   font-size: 13px;
-  color: gray;
+  color: var(--accent-color);
+  opacity: 70%;
 }
 
 @media (max-width: 768px) {

@@ -19,6 +19,14 @@
     cursor: pointer;
 }
 
+.nav-elements > li {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-elements > li:hover {
+    transform: scale(1.2);
+}
+
 .user-icon {
     margin-bottom: 30px;
 }
