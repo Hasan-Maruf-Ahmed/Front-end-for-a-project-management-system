@@ -9,3 +9,10 @@ const intervalId = setInterval(() => {
     number.innerHTML = counter + "%";
   }
 }, 20);
+
+const openModal = document.getElementById('open-modal');
+const dialog = document.getElementById('dialog');
+
+openModal.onclick = () => {
+  dialog.showModal();
+}
