@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   /* border: 1px solid red; */
-
 }
 
 body {
@@ -68,7 +67,7 @@ body {
   cursor: pointer;
 }
 
-.main-left > .main-heading > .new-btn > i{
+.main-left > .main-heading > .new-btn > i {
   font-weight: bold;
 }
 
@@ -77,9 +76,31 @@ dialog {
   padding: 25px;
   border: 3px solid var(--accent-color);
   border-radius: 8px;
+  opacity: 0;
+  transition: all 0.3s allow-discrete;
+}
+
+dialog[open] {
+  opacity: 1;
+}
+
+@starting-style {
+  dialog[open] {
+    opacity: 0;
+  }
+  dialog[open]::backdrop {
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+  }
 }
 
 dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(0);
+  transition: all 0.3s allow-discrete;
+}
+
+dialog[open]::backdrop {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(2px);
 }
@@ -153,7 +174,7 @@ dialog::backdrop {
 }
 
 .progress-bar {
-  width: 45%;   
+  width: 45%;
   height: 100%;
   background-color: var(--accent-color);
   transition: width 0.3s ease;
@@ -211,14 +232,17 @@ dialog::backdrop {
 
 .circular-progress-section > .circular-progress > .outer-circle {
   box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-              -6px -6px 10px -1px rgba(255, 255, 255, 0.15);
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.15);
   height: 200px;
   width: 200px;
   padding: 20px;
   border-radius: 50%;
 }
 
-.circular-progress-section > .circular-progress > .outer-circle > .inner-circle {
+.circular-progress-section
+  > .circular-progress
+  > .outer-circle
+  > .inner-circle {
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -226,10 +250,9 @@ dialog::backdrop {
   justify-content: center;
   align-items: center;
   box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-              inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
-              -0.5px -0.5px 0px rgba(255, 255, 255, 1),
-              0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
-              0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
   /* border: 1px solid red; */
 }
 
@@ -296,7 +319,6 @@ dialog::backdrop {
 
 .complete-progress-detail > .title {
   font-size: 17px;
-
 }
 
 .complete-progress-detail > .task-no {
@@ -307,12 +329,12 @@ dialog::backdrop {
 
 @media (max-width: 768px) {
   .main-projects-section {
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 480px) {
   .main-projects-section {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
 }
