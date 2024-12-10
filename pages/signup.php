@@ -15,7 +15,7 @@
             <span class="primary-heading">Create your account</span>
             <span class="secondary-heading">Please, sign up to continue</span>
         </div>
-        <form class="input-form" action="">
+        <form class="input-form" action="../backend/signIn_out.php" method="post">
             <div>
                 <label for="username">User Name</label>
                 <input class="input-box" type="text" id="username" name="username">
@@ -28,7 +28,7 @@
                 <label for="password">Password</label>
                 <input class="input-box" type="password" id="password" name="password">
             </div>
-            <input class="sub-btn" type="submit" value="Submit">
+            <input class="sub-btn" type="submit" value="Submit" name="signUp">
         </form>
         <span class="alternate-link">Already have an account? <a href="./login.php">Sign in</a></span>
     </div>

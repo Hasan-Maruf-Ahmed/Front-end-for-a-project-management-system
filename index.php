@@ -1,3 +1,7 @@
+<?php
+session_start();
+include "./database/dbConnect.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
