@@ -1,6 +1,15 @@
 <?php
 session_start();
 include "./database/dbConnect.php";
+
+echo "<script>";
+if (!empty($_SESSION)) {
+    $sessionJson = json_encode($_SESSION);
+    echo "const sessionData = $sessionJson; console.log('Session Data:', sessionData);";
+} else {
+    echo "console.log('No session variables are set.');";
+}
+echo "</script>";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -50,328 +59,75 @@ include "./database/dbConnect.php";
                     </dialog>
                 </div>
                 <div class="main-projects-section">
-                    <div class="project-card">
-                        <div class="card-title">
-                            <i class="ph ph-book"></i>
-                            <div class="title-sec">
-                                <span class="project-sec-title">Personal Portfolio Project</span>
-                                <span class="project-sec-date">Today</span>
-                            </div>
-                        </div>
-                        <div class="card-task">
-                            <ul>
-                                <li>Research different designs for inspiration.</li>
-                                <li>Implement a basic structure</li>
-                                <li>Add css and js for functionality</li>
-                            </ul>
-                        </div>
-                        <div class="card-progress-bar">
-                            <div class="progress-bar"></div>
-                        </div>
-                        <div class="card-progress-detail">
-                            <span>On progress</span>
-                            <span>45%</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-title">
-                            <i class="ph ph-book"></i>
-                            <div class="title-sec">
-                                <span class="project-sec-title">Personal Portfolio Project</span>
-                                <span class="project-sec-date">Today</span>
-                            </div>
-                        </div>
-                        <div class="card-task">
-                            <ul>
-                                <li>Research different designs for inspiration.</li>
-                                <li>Implement a basic structure</li>
-                                <li>Add css and js for functionality</li>
-                            </ul>
-                        </div>
-                        <div class="card-progress-bar">
-                            <div class="progress-bar"></div>
-                        </div>
-                        <div class="card-progress-detail">
-                            <span>On progress</span>
-                            <span>45%</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-title">
-                            <i class="ph ph-book"></i>
-                            <div class="title-sec">
-                                <span class="project-sec-title">Personal Portfolio Project</span>
-                                <span class="project-sec-date">Today</span>
-                            </div>
-                        </div>
-                        <div class="card-task">
-                            <ul>
-                                <li>Research different designs for inspiration.</li>
-                                <li>Implement a basic structure</li>
-                                <li>Add css and js for functionality</li>
-                            </ul>
-                        </div>
-                        <div class="card-progress-bar">
-                            <div class="progress-bar"></div>
-                        </div>
-                        <div class="card-progress-detail">
-                            <span>On progress</span>
-                            <span>45%</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-title">
-                            <i class="ph ph-book"></i>
-                            <div class="title-sec">
-                                <span class="project-sec-title">Personal Portfolio Project</span>
-                                <span class="project-sec-date">Today</span>
-                            </div>
-                        </div>
-                        <div class="card-task">
-                            <ul>
-                                <li>Research different designs for inspiration.</li>
-                                <li>Implement a basic structure</li>
-                                <li>Add css and js for functionality</li>
-                            </ul>
-                        </div>
-                        <div class="card-progress-bar">
-                            <div class="progress-bar"></div>
-                        </div>
-                        <div class="card-progress-detail">
-                            <span>On progress</span>
-                            <span>45%</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-title">
-                            <i class="ph ph-book"></i>
-                            <div class="title-sec">
-                                <span class="project-sec-title">Personal Portfolio Project</span>
-                                <span class="project-sec-date">Today</span>
-                            </div>
-                        </div>
-                        <div class="card-task">
-                            <ul>
-                                <li>Research different designs for inspiration.</li>
-                                <li>Implement a basic structure</li>
-                                <li>Add css and js for functionality</li>
-                            </ul>
-                        </div>
-                        <div class="card-progress-bar">
-                            <div class="progress-bar"></div>
-                        </div>
-                        <div class="card-progress-detail">
-                            <span>On progress</span>
-                            <span>45%</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-title">
-                            <i class="ph ph-book"></i>
-                            <div class="title-sec">
-                                <span class="project-sec-title">Personal Portfolio Project</span>
-                                <span class="project-sec-date">Today</span>
-                            </div>
-                        </div>
-                        <div class="card-task">
-                            <ul>
-                                <li>Research different designs for inspiration.</li>
-                                <li>Implement a basic structure</li>
-                                <li>Add css and js for functionality</li>
-                            </ul>
-                        </div>
-                        <div class="card-progress-bar">
-                            <div class="progress-bar"></div>
-                        </div>
-                        <div class="card-progress-detail">
-                            <span>On progress</span>
-                            <span>45%</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-title">
-                            <i class="ph ph-book"></i>
-                            <div class="title-sec">
-                                <span class="project-sec-title">Personal Portfolio Project</span>
-                                <span class="project-sec-date">Today</span>
-                            </div>
-                        </div>
-                        <div class="card-task">
-                            <ul>
-                                <li>Research different designs for inspiration.</li>
-                                <li>Implement a basic structure</li>
-                                <li>Add css and js for functionality</li>
-                            </ul>
-                        </div>
-                        <div class="card-progress-bar">
-                            <div class="progress-bar"></div>
-                        </div>
-                        <div class="card-progress-detail">
-                            <span>On progress</span>
-                            <span>45%</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-title">
-                            <i class="ph ph-book"></i>
-                            <div class="title-sec">
-                                <span class="project-sec-title">Personal Portfolio Project</span>
-                                <span class="project-sec-date">Today</span>
-                            </div>
-                        </div>
-                        <div class="card-task">
-                            <ul>
-                                <li>Research different designs for inspiration.</li>
-                                <li>Implement a basic structure</li>
-                                <li>Add css and js for functionality</li>
-                            </ul>
-                        </div>
-                        <div class="card-progress-bar">
-                            <div class="progress-bar"></div>
-                        </div>
-                        <div class="card-progress-detail">
-                            <span>On progress</span>
-                            <span>45%</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-title">
-                            <i class="ph ph-book"></i>
-                            <div class="title-sec">
-                                <span class="project-sec-title">Personal Portfolio Project</span>
-                                <span class="project-sec-date">Today</span>
-                            </div>
-                        </div>
-                        <div class="card-task">
-                            <ul>
-                                <li>Research different designs for inspiration.</li>
-                                <li>Implement a basic structure</li>
-                                <li>Add css and js for functionality</li>
-                            </ul>
-                        </div>
-                        <div class="card-progress-bar">
-                            <div class="progress-bar"></div>
-                        </div>
-                        <div class="card-progress-detail">
-                            <span>On progress</span>
-                            <span>45%</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-title">
-                            <i class="ph ph-book"></i>
-                            <div class="title-sec">
-                                <span class="project-sec-title">Personal Portfolio Project</span>
-                                <span class="project-sec-date">Today</span>
-                            </div>
-                        </div>
-                        <div class="card-task">
-                            <ul>
-                                <li>Research different designs for inspiration.</li>
-                                <li>Implement a basic structure</li>
-                                <li>Add css and js for functionality</li>
-                            </ul>
-                        </div>
-                        <div class="card-progress-bar">
-                            <div class="progress-bar"></div>
-                        </div>
-                        <div class="card-progress-detail">
-                            <span>On progress</span>
-                            <span>45%</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-title">
-                            <i class="ph ph-book"></i>
-                            <div class="title-sec">
-                                <span class="project-sec-title">Personal Portfolio Project</span>
-                                <span class="project-sec-date">Today</span>
-                            </div>
-                        </div>
-                        <div class="card-task">
-                            <ul>
-                                <li>Research different designs for inspiration.</li>
-                                <li>Implement a basic structure</li>
-                                <li>Add css and js for functionality</li>
-                            </ul>
-                        </div>
-                        <div class="card-progress-bar">
-                            <div class="progress-bar"></div>
-                        </div>
-                        <div class="card-progress-detail">
-                            <span>On progress</span>
-                            <span>45%</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-title">
-                            <i class="ph ph-book"></i>
-                            <div class="title-sec">
-                                <span class="project-sec-title">Personal Portfolio Project</span>
-                                <span class="project-sec-date">Today</span>
-                            </div>
-                        </div>
-                        <div class="card-task">
-                            <ul>
-                                <li>Research different designs for inspiration.</li>
-                                <li>Implement a basic structure</li>
-                                <li>Add css and js for functionality</li>
-                            </ul>
-                        </div>
-                        <div class="card-progress-bar">
-                            <div class="progress-bar"></div>
-                        </div>
-                        <div class="card-progress-detail">
-                            <span>On progress</span>
-                            <span>45%</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-title">
-                            <i class="ph ph-book"></i>
-                            <div class="title-sec">
-                                <span class="project-sec-title">Personal Portfolio Project</span>
-                                <span class="project-sec-date">Today</span>
-                            </div>
-                        </div>
-                        <div class="card-task">
-                            <ul>
-                                <li>Research different designs for inspiration.</li>
-                                <li>Implement a basic structure</li>
-                                <li>Add css and js for functionality</li>
-                            </ul>
-                        </div>
-                        <div class="card-progress-bar">
-                            <div class="progress-bar"></div>
-                        </div>
-                        <div class="card-progress-detail">
-                            <span>On progress</span>
-                            <span>45%</span>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-title">
-                            <i class="ph ph-book"></i>
-                            <div class="title-sec">
-                                <span class="project-sec-title">Personal Portfolio Project</span>
-                                <span class="project-sec-date">Today</span>
-                            </div>
-                        </div>
-                        <div class="card-task">
-                            <ul>
-                                <li>Research different designs for inspiration.</li>
-                                <li>Implement a basic structure</li>
-                                <li>Add css and js for functionality</li>
-                            </ul>
-                        </div>
-                        <div class="card-progress-bar">
-                            <div class="progress-bar"></div>
-                        </div>
-                        <div class="card-progress-detail">
-                            <span>On progress</span>
-                            <span>45%</span>
-                        </div>
-                    </div>
+                    <?php
+                    // Check if the user is logged in
+                    if (!isset($_SESSION['email'])) {
+                        header("location: ../pages/login.php");
+                        exit();
+                    }
+
+                    // Get the logged-in user's ID
+                    $userEmail = $_SESSION['email'];
+                    $userQuery = "SELECT id FROM users WHERE email = '$userEmail'";
+                    $userResult = $conn->query($userQuery);
+                    if ($userResult->num_rows > 0) {
+                        $userId = $userResult->fetch_assoc()['id'];
+                    } else {
+                        echo "User not found.";
+                        exit();
+                    }
+
+                    // Fetch user's projects
+                    $projectsQuery = "SELECT * FROM projects WHERE user_id = '$userId'";
+                    $projectsResult = $conn->query($projectsQuery);
+
+                    while ($project = $projectsResult->fetch_assoc()) {
+                        $projectId = $project['id'];
+                        $projectName = htmlspecialchars($project['name']);
+                        $createdAt = date('F j, Y', strtotime($project['created_at']));
+
+                        // Fetch sub-tasks for the project
+                        $subtasksQuery = "SELECT * FROM sub_tasks WHERE project_id = '$projectId'";
+                        $subtasksResult = $conn->query($subtasksQuery);
+
+                        // Calculate progress (example logic: Completed tasks / Total tasks)
+                        $totalTasks = $subtasksResult->num_rows;
+                        $completedTasksQuery = "SELECT COUNT(*) AS completed FROM sub_tasks WHERE project_id = '$projectId' AND status = 'Completed'";
+                        $completedTasksResult = $conn->query($completedTasksQuery);
+                        $completedTasks = $completedTasksResult->fetch_assoc()['completed'];
+                        $progress = $totalTasks > 0 ? round(($completedTasks / $totalTasks) * 100) : 0;
+
+                        // Display project card
+                        echo "<div class='project-card'>
+            <div class='card-title'>
+                <i class='ph ph-book'></i>
+                <div class='title-sec'>
+                    <span class='project-sec-title'>$projectName</span>
+                    <span class='project-sec-date'>$createdAt</span>
+                </div>
+            </div>
+            <div class='card-task'>
+                <ul>";
+
+                        // Display subtasks
+                        while ($subtask = $subtasksResult->fetch_assoc()) {
+                            $subtaskName = htmlspecialchars($subtask['name']);
+                            echo "<li>$subtaskName</li>";
+                        }
+
+                        echo "    </ul>
+            </div>
+            <div class='card-progress-bar'>
+                <div class='progress-bar' style='width: $progress%;'></div>
+            </div>
+            <div class='card-progress-detail'>
+                <span>" . ($progress < 100 ? "On progress" : "Completed") . "</span>
+                <span>$progress%</span>
+            </div>
+        </div>";
+                    }
+                    ?>
+
                 </div>
             </div>
             <div class="main-right">

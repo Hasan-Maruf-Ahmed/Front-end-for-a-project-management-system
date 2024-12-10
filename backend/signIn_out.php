@@ -37,6 +37,7 @@ if(isset($_POST['signIn'])){
         session_start();
         $row = $result->fetch_assoc();
         $_SESSION['email']=$row['email'];
+        $_SESSION['username']=$row['username'];
         header("location: ../index.php");
         exit();
     }
