@@ -29,7 +29,24 @@ include "./database/dbConnect.php";
                     <span>My Projects</span>
                     <button class="new-btn" id="open-modal"><i class="ph ph-plus"></i>New</button>
                     <dialog id="dialog">
-                        <h2>Hello, World!</h2>
+                        <form action="./backend/create_project.php" method="POST">
+                            <h2>Create a New Project</h2>
+                            <label for="project_name">Project Name:</label>
+                            <input type="text" id="project_name" name="project_name" required>
+
+                            <h3>Sub-Tasks</h3>
+                            <div id="subtasks">
+                                <div class="subtask">
+                                    <label for="subtask_name_1">Sub-task 1:</label>
+                                    <input type="text" id="subtask_name_1" name="subtasks[]" required>
+                                </div>
+                            </div>
+                            <div class="task-btns">
+                                <button class="task-btn" type="button" onclick="addSubtask()">Add Sub-task</button>
+
+                                <button class="task-btn" type="submit">Create Project</button>
+                            </div>
+                        </form>
                     </dialog>
                 </div>
                 <div class="main-projects-section">
@@ -410,6 +427,18 @@ include "./database/dbConnect.php";
     </div>
 
     <script src="./scripts/script.js" defer></script>
+    <script>
+        function addSubtask() {
+            const subtasksDiv = document.getElementById('subtasks');
+            const subtaskCount = subtasksDiv.getElementsByClassName('subtask').length + 1;
+            const newSubtask = `
+        <div class="subtask">
+            <label for="subtask_name_${subtaskCount}">Sub-task ${subtaskCount}:</label>
+            <input type="text" id="subtask_name_${subtaskCount}" name="subtasks[]" required>
+        </div>`;
+            subtasksDiv.insertAdjacentHTML('beforeend', newSubtask);
+        }
+    </script>
 </body>
 
 </html>

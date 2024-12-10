@@ -28,3 +28,4 @@ dialog.onclick = (e) => {
     dialog.close();
   }
 }
+

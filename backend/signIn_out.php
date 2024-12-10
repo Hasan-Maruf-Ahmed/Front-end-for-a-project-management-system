@@ -18,6 +18,7 @@ if(isset($_POST['signUp'])) {
 
         if($conn->query($insertQuery)==TRUE) {
             header("location: ../pages/login.php");
+            exit();
         }
         else {
             echo "Error: " .$conn->error;
@@ -40,7 +41,7 @@ if(isset($_POST['signIn'])){
         exit();
     }
     else {
-        echo "User Not Found";
+        echo "Invalid email or password.";
     }
 }
 
