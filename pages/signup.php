@@ -17,6 +17,10 @@
         </div>
         <form class="input-form" action="">
             <div>
+                <label for="username">User Name</label>
+                <input class="input-box" type="text" id="username" name="username">
+            </div>
+            <div>
                 <label for="email">Email address</label>
                 <input class="input-box" type="email" id="email" name="email">
             </div>
