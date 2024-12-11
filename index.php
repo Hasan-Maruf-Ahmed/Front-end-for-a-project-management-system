@@ -40,13 +40,15 @@ echo "</script>";
                     <dialog id="dialog">
                         <form action="./backend/create_project.php" method="POST">
                             <h2>Create a New Project</h2>
-                            <label for="project_name">Project Name:</label>
-                            <input type="text" id="project_name" name="project_name" required>
+                            <div class="project-label">
+                                <label for="project_name">Project Name:</label>
+                                <input type="text" id="project_name" name="project_name" required>
+                            </div>
 
-                            <h3>Sub-Tasks</h3>
+                            <h4>Sub-Tasks</h4>
                             <div id="subtasks">
                                 <div class="subtask">
-                                    <label for="subtask_name_1">Sub-task 1:</label>
+                                    <label for="subtask_name_1">1:</label>
                                     <input type="text" id="subtask_name_1" name="subtasks[]" required>
                                 </div>
                             </div>
@@ -145,38 +147,42 @@ echo "</script>";
                             </svg>
                         </div>
                     </div>
-                    <div class="completed-list">
-                        <ul>
-                            <li>
-                                <i class="ph ph-rows"></i>
-                                <div class="complete-progress-detail">
-                                    <span class="title">E-commerce Project</span>
-                                    <span class="task-no">12 tasks</span>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="ph ph-rows"></i>
-                                <div class="complete-progress-detail">
-                                    <span class="title">E-commerce Project</span>
-                                    <span class="task-no">12 tasks</span>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="ph ph-rows"></i>
-                                <div class="complete-progress-detail">
-                                    <span class="title">E-commerce Project</span>
-                                    <span class="task-no">12 tasks</span>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="ph ph-rows"></i>
-                                <div class="complete-progress-detail">
-                                    <span class="title">E-commerce Project</span>
-                                    <span class="task-no">12 tasks</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                    <?php
+                    $totalProjectsQuery = "SELECT COUNT(*) AS total_projects FROM projects WHERE user_id = '$userId'";
+                    $totalProjectsResult = $conn->query($totalProjectsQuery);
+                    $totalProjects = $totalProjectsResult->fetch_assoc()['total_projects'];
+                    
+                    $completedProjectsQuery = "SELECT COUNT(*) AS completed_projects FROM projects WHERE user_id = '$userId' AND status = 'Completed'";
+                    $completedProjectsResult = $conn->query($completedProjectsQuery);
+                    $completedProjects = $completedProjectsResult->fetch_assoc()['completed_projects'];
+
+                    $projectProgress = $totalProjects > 0 ? round(($completedProjects / $totalProjects) * 100) : 0;
+
+
+                    $completedProjectsQuery = "SELECT * FROM projects WHERE user_id = '$userId' AND status = 'Completed'";
+                    $completedProjectsResult = $conn->query($completedProjectsQuery);
+
+                    while ($project = $completedProjectsResult->fetch_assoc()) {
+                        $projectId = $project['id'];
+                        $projectName = htmlspecialchars($project['name']);
+                        $completedTasksQuery = "SELECT COUNT(*) AS task_count FROM sub_tasks WHERE project_id = '$projectId'";
+                        $completedTasksResult = $conn->query($completedTasksQuery);
+                        $taskCount = $completedTasksResult->fetch_assoc()['task_count'];
+
+                        // Display each completed project in the list
+                        echo "<div class='completed-list'>
+                                <ul>
+                                    <li>
+                                        <i class='ph ph-rows'></i>
+                                        <div class='complete-progress-detail'>
+                                            <span class='title'>$projectName</span>
+                                            <span class='task-no'>$taskCount tasks</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                              </div>";
+                    }
+                    ?>
                 </div>
             </div>
         </div>
@@ -189,11 +195,24 @@ echo "</script>";
             const subtaskCount = subtasksDiv.getElementsByClassName('subtask').length + 1;
             const newSubtask = `
         <div class="subtask">
-            <label for="subtask_name_${subtaskCount}">Sub-task ${subtaskCount}:</label>
+            <label for="subtask_name_${subtaskCount}">${subtaskCount}:</label>
             <input type="text" id="subtask_name_${subtaskCount}" name="subtasks[]" required>
         </div>`;
             subtasksDiv.insertAdjacentHTML('beforeend', newSubtask);
         }
+    </script>
+    <script>
+        let number = document.querySelector("#number");
+        let counter = 0;
+
+        const intervalId = setInterval(() => {
+            if (counter == <?php echo $projectProgress; ?>) {
+                clearInterval(intervalId);
+            } else {
+                counter++;
+                number.innerHTML = counter + "%";
+            }
+        }, 30);
     </script>
 </body>
 

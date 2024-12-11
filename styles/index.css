@@ -72,8 +72,6 @@ body {
 }
 
 
-
-
 dialog {
   margin: auto;
   padding: 25px;
@@ -85,6 +83,53 @@ dialog {
 
 dialog[open] {
   opacity: 1;
+}
+
+dialog > form > h2 {
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: var(--accent-color);
+}
+
+dialog > form > h4{
+  margin-bottom: 10px;
+  color: var(--accent-color);
+}
+
+dialog > form > .project-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  margin: 10px 0;
+}
+
+dialog > form > .project-label > label {
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+dialog > form > .project-label > input {
+  padding: 5px 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.subtask {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.subtask > input{
+  padding: 2px 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--accent-color);
+  width: 100%;
+  color: var(--accent-color);
 }
 
 dialog > form > .task-btns{
@@ -311,7 +356,7 @@ dialog[open]::backdrop {
 
 @keyframes anim {
   100% {
-    stroke-dashoffset: 282.6;
+    stroke-dashoffset: 378.684;
   }
 }
 

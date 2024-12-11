@@ -14,12 +14,13 @@
     color: var(--accent-color);
 }
 
-.nav-elements > li > i {
+.nav-elements > li > i, a {
     font-size: 24px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.nav-elements > li {
+.nav-elements > li, a {
     transition: transform 0.3s ease, color 0.3s ease;
 }
 

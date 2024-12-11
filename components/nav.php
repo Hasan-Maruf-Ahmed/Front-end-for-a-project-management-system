@@ -4,7 +4,7 @@
     <li><i class="ph ph-rows"></i></li>
     <?php
     if (isset($_SESSION['email'])) {
-        echo "<li><a href='backend/logout.php'><i class='ph ph-sign-out'></i> Log out</a></li>";
+        echo "<li><a href='backend/logout.php'><i class='ph ph-sign-out'></i></a></li>";
     }
     ?>
 
