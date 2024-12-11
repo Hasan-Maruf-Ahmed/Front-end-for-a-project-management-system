@@ -64,7 +64,7 @@ echo "</script>";
                     <?php
                     // Check if the user is logged in
                     if (!isset($_SESSION['email'])) {
-                        header("location: ../pages/login.php");
+                        header("location: pages/login.php");
                         exit();
                     }
 
